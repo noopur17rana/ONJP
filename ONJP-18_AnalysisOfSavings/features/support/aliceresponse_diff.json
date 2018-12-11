@@ -1,0 +1,68 @@
+{
+    "username": "alice",
+    "creditDebitMatch": [
+        {
+            "bankName": "NatWest",
+            "accountType": "CC",
+            "accountTitle": "Reward Black Credit Card",
+            "totalBalanceDue": 1800,
+            "apr": 37.1,
+            "minimumDue": 30,
+            "senders": [
+                {
+                    "bankName": "Halifax",
+                    "accountType": "SB",
+                    "accountTitle": "Every Day Saver",
+                    "contributingAmount": -500,
+                    "totalAvailableBalance": -500,
+                    "interestRate": 0.2
+                },
+                {
+                    "bankName": "HSBC",
+                    "accountType": "PCA",
+                    "accountTitle": "HSBC Advance Bank Account",
+                    "contributingAmount": 530,
+                    "totalAvailableBalance": 2600,
+                    "interestRate": 0.1
+                }
+            ],
+            "totalOutstandingBalance": 1770
+        },
+        {
+            "bankName": "Barclays",
+            "accountType": "M",
+            "accountTitle": "2 Years Fixed Reward",
+            "totalBalanceDue": 50000,
+            "interestRate": 3.3,
+            "minimumDue": 800,
+            "senders": [
+                {
+                    "bankName": "HSBC",
+                    "accountType": "PCA",
+                    "accountTitle": "HSBC Advance Bank Account",
+                    "contributingAmount": 100,
+                    "totalAvailableBalance": 2600,
+                    "interestRate": 0.1
+                },
+                {
+                    "bankName": "Barclays",
+                    "accountType": "SB",
+                    "accountTitle": "Easy Saver",
+                    "contributingAmount": 5000,
+                    "totalAvailableBalance": 5000,
+                    "interestRate": 0.25
+                },
+                {
+                    "bankName": "HSBC",
+                    "accountType": "PCA",
+                    "accountTitle": "HSBC Advance Bank Account",
+                    "contributingAmount": 1970,
+                    "totalAvailableBalance": 2600,
+                    "interestRate": 0.1
+                }
+            ],
+            "totalOutstandingBalance": 42930
+        }
+    ],
+    "optimizeSaving": 0
+}

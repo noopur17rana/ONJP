@@ -1,0 +1,40 @@
+{
+    "username": "bob",
+    "password": "bob",
+    "UIN": "XXXX-xxxx",
+    "creditScore": 700,
+    "banks": [
+        {
+            "bankName": "Barclays",
+            "bankId": "BBaarrccllaayyss",
+            "accounts": [
+                {
+                    "accountType": "SB",
+                    "accountNumber": "XXXXXX XXXX3222",
+                    "accountTitle": "Easy Saver",
+                    "standingInst": 100,
+                    "balance": 1800,
+                    "minBalance": 200,
+                    "interestRate": 0.25,
+                    "availableBalance": 1500
+                }
+            ]
+        },
+        {
+            "bankName": "HSBC",
+            "bankId": "HHSSBBCC",
+            "accounts": [
+                {
+                    "accountType": "PCA",
+                    "accountNumber": "XXXXXX XXXX6123",
+                    "accountTitle": "HSBC Advance Bank Account",
+                    "standingInst": 100,
+                    "balance": 400,
+                    "minBalance": 300,
+                    "interestRate": 0.1,
+                    "availableBalance": 0
+                }
+            ]
+        }
+    ]
+}

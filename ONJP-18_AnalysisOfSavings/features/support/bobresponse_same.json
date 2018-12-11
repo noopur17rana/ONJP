@@ -1,0 +1,82 @@
+{
+    "username": "alice",
+    "creditDebitMatch": [
+        {
+            "bankName": "RBS",
+            "accountType": "CC",
+            "accountTitle": "RBS Unlimited Credit Card",
+            "totalBalanceDue": 500,
+            "apr": 15,
+            "minimumDue": 100,
+            "senders": [
+                {
+                    "bankName": "Barclays",
+                    "accountType": "SB",
+                    "accountTitle": "Easy Saver",
+                    "contributingAmount": 200,
+                    "totalAvailableBalance": 500,
+                    "interestRate": 0.25
+                }
+            ],
+            "totalOutstandingBalance": 300
+        },
+        {
+            "bankName": "NatWest",
+            "accountType": "CC",
+            "accountTitle": "Reward Black Credit Card",
+            "totalBalanceDue": 1000,
+            "apr": 15,
+            "minimumDue": 300,
+            "senders": [
+                {
+                    "bankName": "HSBC",
+                    "accountType": "PCA",
+                    "accountTitle": "HSBC Advance Bank Account",
+                    "contributingAmount": 1000,
+                    "totalAvailableBalance": 1000,
+                    "interestRate": 0.25
+                }
+            ],
+            "totalOutstandingBalance": 0
+        },
+        {
+            "bankName": "Barclays",
+            "accountType": "M",
+            "accountTitle": "2 Years Fixed Reward",
+            "totalBalanceDue": 200,
+            "interestRate": 15,
+            "minimumDue": 200,
+            "senders": [
+                {
+                    "bankName": "Barclays",
+                    "accountType": "SB",
+                    "accountTitle": "Easy Saver",
+                    "contributingAmount": 200,
+                    "totalAvailableBalance": 500,
+                    "interestRate": 0.25
+                }
+            ],
+            "totalOutstandingBalance": 0
+        },
+        {
+            "bankName": "Mongo",
+            "accountType": "CC",
+            "accountTitle": "RBS Unlimited Credit Card",
+            "totalBalanceDue": 400,
+            "apr": 15,
+            "minimumDue": 100,
+            "senders": [
+                {
+                    "bankName": "Barclays",
+                    "accountType": "SB",
+                    "accountTitle": "Easy Saver",
+                    "contributingAmount": 100,
+                    "totalAvailableBalance": 500,
+                    "interestRate": 0.25
+                }
+            ],
+            "totalOutstandingBalance": 300
+        }
+    ],
+    "optimizeSaving": 0
+}

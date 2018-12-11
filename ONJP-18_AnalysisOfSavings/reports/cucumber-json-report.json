@@ -1,0 +1,156 @@
+[
+  {
+    "id": "Verify-optima-APIs-debit-and-credit-accounts-for-bob-and-emma",
+    "name": "Verify optima APIs debit and credit accounts for bob and emma",
+    "description": "",
+    "line": 2,
+    "keyword": "Feature",
+    "tags": [
+      {
+        "name": "@analysisOfSavings",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/no354869/Downloads/2711/db-service-master/db-service-master/features/analysisOfSavings.feature",
+    "elements": [
+      {
+        "name": "Verify JSON response message for bob when same APR and AER are used",
+        "id": "Verify-optima-APIs-debit-and-credit-accounts-for-bob-and-emma;verify-json-response-message-for-bob-when-same-apr-and-aer-are-used",
+        "line": 5,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@analysisOfSavings",
+            "line": 4
+          }
+        ],
+        "steps": [
+          {
+            "name": "bob makes a request",
+            "line": 6,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 58447637
+            },
+            "match": {}
+          },
+          {
+            "name": "valid request is logged in to get the optimized savings details",
+            "line": 7,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 35590776
+            },
+            "match": {}
+          },
+          {
+            "name": "asked details are retrieved with zero optimizeSaving",
+            "line": 8,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 1811633
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Verify JSON response message for emma when different APR and AER are used",
+        "id": "Verify-optima-APIs-debit-and-credit-accounts-for-bob-and-emma;verify-json-response-message-for-emma-when-different-apr-and-aer-are-used",
+        "line": 11,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@analysisOfSavings",
+            "line": 10
+          }
+        ],
+        "steps": [
+          {
+            "name": "alice makes a request",
+            "line": 12,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 15632982
+            },
+            "match": {}
+          },
+          {
+            "name": "valid request is logged in to get the optimized savings details",
+            "line": 13,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 25856740
+            },
+            "match": {}
+          },
+          {
+            "name": "asked details are retrieved with some optimizeSaving",
+            "line": 14,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 1633415
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Verify JSON response message for when wrong token used",
+        "id": "Verify-optima-APIs-debit-and-credit-accounts-for-bob-and-emma;verify-json-response-message-for-when-wrong-token-used",
+        "line": 17,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@analysisOfSavings",
+            "line": 16
+          }
+        ],
+        "steps": [
+          {
+            "name": "bob makes a request",
+            "line": 18,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 15756451
+            },
+            "match": {}
+          },
+          {
+            "name": "request is logged in to get the optimized savings details",
+            "line": 19,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 8426474
+            },
+            "match": {}
+          },
+          {
+            "name": "asked details are not retrieved throwing proper error message",
+            "line": 20,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 686442
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  }
+]
